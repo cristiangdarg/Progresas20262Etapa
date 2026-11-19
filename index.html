@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consulta y descarga de certificados individuales del programa PROGRESAR - 2da Etapa.">
+  <title>Certificados PROGRESAR 2da Etapa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__contenido">
+      <div class="marca">
+        <span class="marca__icono" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <path d="M14 2v6h6"></path>
+            <path d="m9 15 2 2 4-5"></path>
+          </svg>
+        </span>
+        <div>
+          <p class="marca__etiqueta">Programa PROGRESAR</p>
+          <h1>Certificados <span>2da Etapa</span></h1>
+        </div>
+      </div>
+      <p class="hero__texto">Consultá y descargá tu certificado individual de forma rápida y segura.</p>
+    </div>
+  </header>
+
+  <main class="principal">
+    <section class="panel" aria-labelledby="titulo-busqueda">
+      <div class="panel__cabecera">
+        <div>
+          <h2 id="titulo-busqueda">Buscar certificado</h2>
+          <p>Ingresá tu número de DNI o tu apellido y nombre.</p>
+        </div>
+        <span class="contador" id="contador-total">0 certificados</span>
+      </div>
+
+      <div class="buscador">
+        <span class="buscador__icono" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m20 20-3.5-3.5"></path>
+          </svg>
+        </span>
+        <label class="sr-only" for="buscar">Buscar por DNI, apellido o nombre</label>
+        <input type="search" id="buscar" placeholder="Ej.: 49.349.250 o Gomez Cristian Gabriel" autocomplete="off" spellcheck="false">
+        <button type="button" class="buscador__limpiar" id="limpiar" aria-label="Limpiar búsqueda" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+
+      <p class="resultados" id="resultados" aria-live="polite"></p>
+    </section>
+
+    <section id="lista" class="tarjetas" aria-label="Listado de certificados"></section>
+
+    <div id="vacio" class="vacio" hidden>
+      <span class="vacio__icono" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+      </span>
+      <h3>Sin resultados</h3>
+      <p>No encontramos certificados con los datos ingresados. Revisá el DNI o la escritura del nombre.</p>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <p>Certificados PROGRESAR 2da Etapa &middot; Consulta y descarga oficial</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

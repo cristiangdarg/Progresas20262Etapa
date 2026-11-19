@@ -71,7 +71,7 @@ const CERTIFICADOS = [
     },
     {
         "nombre":  "Barraza Jorge Gabriel",
-        "dni":  "48979485",
+        "dni":  "48974485",
         "archivo":  "BarrazaJorgeGabriel.pdf"
     },
     {
@@ -281,7 +281,7 @@ const CERTIFICADOS = [
     },
     {
         "nombre":  "Escobar Xiomara Gisela",
-        "dni":  "48979255",
+        "dni":  "48974255",
         "archivo":  "EscobarXiomaraGisela.pdf"
     },
     {
@@ -318,11 +318,6 @@ const CERTIFICADOS = [
         "nombre":  "Gallo Abril Melani",
         "dni":  "50569072",
         "archivo":  "GalloAbrilMelani.pdf"
-    },
-    {
-        "nombre":  "Galvan Gomez Facundo David",
-        "dni":  "49396730",
-        "archivo":  "GalvanGomezFacundoDavid.pdf"
     },
     {
         "nombre":  "Galván Gomez Facundo David",
@@ -410,9 +405,9 @@ const CERTIFICADOS = [
         "archivo":  "GonzalezValentinaGiselle.pdf"
     },
     {
-        "nombre":  "Gutierrez Mailen Mercdes",
+        "nombre":  "Gutierrez Mailen Mercedes",
         "dni":  "49972927",
-        "archivo":  "GutierrezMailenMercdes.pdf"
+        "archivo":  "GutierrezMailenMercedes.pdf"
     },
     {
         "nombre":  "Gutierrez Micaela Alejandra",
@@ -562,7 +557,7 @@ const CERTIFICADOS = [
     {
         "nombre":  "Mendez Salto Antonela G.",
         "dni":  "49206679",
-        "archivo":  "MendezSaltoAntonelaG..pdf"
+        "archivo":  "MendezSaltoAntonelaG.pdf"
     },
     {
         "nombre":  "More Abril Melani",
@@ -745,7 +740,7 @@ const CERTIFICADOS = [
         "archivo":  "SequeiraEgeaSamiraAyelen.pdf"
     },
     {
-        "nombre":  "Sequeira Sauco Rita Maria  Angelica",
+        "nombre":  "Sequeira Sauco Rita Maria Angelica",
         "dni":  "50212282",
         "archivo":  "SequeiraSaucoRitaMariaAngelica.pdf"
     },

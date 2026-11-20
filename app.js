@@ -74,7 +74,7 @@
 
     const enlace = document.createElement("a");
     enlace.className = "descargar";
-    enlace.href = "Certificados_Individuales/" + encodeURIComponent(certificado.archivo);
+    enlace.href = "Certificados/" + encodeURIComponent(certificado.archivo);
     enlace.download = certificado.archivo;
     enlace.setAttribute("aria-label", "Descargar certificado de " + certificado.nombre);
 
